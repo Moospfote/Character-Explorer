@@ -1,1 +1,29 @@
+# Python / Virtual Environment
 .venv/
+env/
+venv/
+ENV/
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# PyInstaller / Distribution
+build/
+dist/
+*.spec
+
+# Database / Local Data
+# We ignore the actual database but keep the data directory structure if needed
+data/*.db
+data/*.sqlite
+characters.db
+
+# User specific / IDEs
+.vscode/
+.idea/
+.DS_Store
+
+# Assets (Optional: remove if you want to keep logos in Git)
+# assets/*.ico
+# assets/*.png
